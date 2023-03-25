@@ -12,5 +12,6 @@ export default defineConfig({
     },
     outDir: '../dist',
   },
+
   plugins: [checkPathExists(), injectHTML(), FullReload(['./src/**/**.html'])],
 });

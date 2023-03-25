@@ -16,5 +16,8 @@
     "vite-plugin-html-inject": "^1.0.1"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
 }
