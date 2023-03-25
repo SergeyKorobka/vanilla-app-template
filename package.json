@@ -11,7 +11,7 @@
   "devDependencies": {
     "glob": "^8.1.0",
     "vite": "^4.0.0",
-    "vite-check-path-exists": "^1.0.6",
+    "vite-check-path-exists": "^1.0.11",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   },
