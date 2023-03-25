@@ -5,26 +5,39 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+
+    <!-- slick styles -->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
+
+    <!-- swiper styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <load ="partials/header.html" />
 
     <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
+      <div class="container">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <!-- Path to images as from index.html file -->
+        <img src="./img/javascript.svg" alt="" />
+      </div>
     </section>
 
     <!-- Loads the specified .html file -->
     <load ="partials/vite-promo.html" />
     <load ="partials/slick.html" />
+    <load ="partials/swiper.html" />
 
+    <!-- slick script -->
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-1.11.0.min.js"
@@ -33,9 +46,14 @@
       type="text/javascript"
       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <script type="module" src="/main.js"></script>
-    <script type="module" src="/js/slick.min.js"></script>
-    <script type="module" src="/js/slick-init.js"></script>
   </body>
 </html>
