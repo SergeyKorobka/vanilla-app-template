@@ -1,0 +1,31 @@
+.modal-example .title {
+  margin-bottom: 4rem;
+}
+
+.modal-example-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.modal-example-btn {
+  padding: 1rem 2.5rem;
+
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.87);
+
+  background-color: #646cff;
+  border: 1px solid transparent;
+  border-radius: 1.25rem;
+  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+}
+
+.modal-example-btn:hover,
+.modal-example-btn:focus {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #747bff;
+}

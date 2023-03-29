@@ -2,6 +2,11 @@
   padding: 20px 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -10,6 +15,8 @@
 }
 
 .nav-link {
+  display: block;
+  padding: 14px 0;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;

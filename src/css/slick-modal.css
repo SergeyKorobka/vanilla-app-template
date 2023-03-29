@@ -1,18 +1,15 @@
-.slick-section .actions {
-  margin-bottom: 1.5rem;
-}
-
-.slick {
+.slick-modal {
   margin: 0 -12px;
+  padding: 14px 0;
 }
 
-.slick-track {
+.slick-modal .slick-track {
   display: flex;
   gap: 24px;
   padding: 6px 0;
 }
 
-.slick .slick-dots {
+.slick-modal .slick-dots {
   display: flex !important;
   align-items: center;
   justify-content: center;
@@ -20,7 +17,7 @@
   margin-top: 2rem;
 }
 
-.slick .slick-dots li button {
+.slick-modal .slick-dots li button {
   font-size: 0;
   width: 12px;
   height: 12px;
@@ -30,12 +27,12 @@
   transition: transform 250ms linear;
 }
 
-.slick .slick-dots li.slick-active button {
+.slick-modal .slick-dots li.slick-active button {
   transform: scale(1.5);
   background-image: linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 }
 
-.slick .slick-slide {
+.slick-modal .slick-slide {
   padding: 10px;
   border-radius: 6px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
