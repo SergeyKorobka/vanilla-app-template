@@ -15,6 +15,52 @@
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  top: 155px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  /* можна змінити стилі стрілок */
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  /* стилі лівої стрілки */
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  /* стилі правої стрілки */
+}
+
+.swiper-pagination-fraction {
+  position: static;
+
+  margin-top: 2rem;
+}
+
+.swiper-pagination-custom {
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.swiper-pagination-custom .current,
+.swiper-pagination-custom .total {
+  font-size: 20px;
+}
+
+.swiper-pagination-custom .delimiter {
+  display: block;
+  height: 1px;
+  width: 35px;
+  margin: 0 10px;
+  background-color: #000000;
+}
+
 .swiper .swiper-pagination-bullets {
   position: static;
   display: flex;

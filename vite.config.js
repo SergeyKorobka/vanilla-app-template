@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import glob from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
-import checkPathExists from 'vite-check-path-exists';
 
 export default defineConfig({
   root: 'src',
@@ -12,5 +11,5 @@ export default defineConfig({
     },
     outDir: '../dist',
   },
-  plugins: [checkPathExists(), injectHTML(), FullReload(['./src/**/**.html'])],
+  plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
 });
